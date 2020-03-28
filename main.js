@@ -57,7 +57,8 @@ document.getElementById('bottone-annulla').addEventListener("click", function(){
   document.getElementById("nom-pass").innerHTML =  "";
   document.getElementById('carrozza').innerHTML= "";
   document.getElementById('codice').innerHTML = "";
-  document.getElementsByName('costoticket').innerHTML="0";
+  document.getElementById('costoticket').innerHTML="";
   document.getElementById("offerta").innerHTML = "";
+
 
 })

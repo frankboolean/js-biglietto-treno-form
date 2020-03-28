@@ -5,11 +5,18 @@
 }
 
 body{
-  background-color: red;
+  background-color: crimson;
 }
+
+img{
+  width: 100px;
+  float: left;
+}
+
 
 h1{
   text-align: center;
+  color:white;
 }
 
 .box{
@@ -33,7 +40,20 @@ h1{
   margin-top: 20px;
 }
 
+.bottoni button{
+  width: 80px;
+  height: 30px;
+  color: red;
+}
 
+.principale{
+  border: 1px solid black;
+  background-color: grey;
+}
+
+p{
+  font-size: 30px;
+}
 /* biglietto nascosto */
 
 .info{
@@ -51,4 +71,9 @@ h1{
   margin-left: 20%;
   margin-right: 20%;
   margin-top: 30px;
+  padding: 12px;
+}
+
+.iltuo{
+  margin-top: 15px;
 }
