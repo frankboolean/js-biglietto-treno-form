@@ -29,6 +29,8 @@ document.getElementById('bottone-genera').addEventListener("click",function(){
    prezzo=Math.floor((0.21 * valKm)*100)/100;
    document.getElementById("offerta").innerHTML ="Biglietto Standard";
    document.getElementById('costoticket').innerHTML= prezzo + "€";
+   document.getElementById("scatola").style.display = "block";
+   document.getElementById("tuo").style.display = "block";
 
    // possibilità
 
@@ -59,6 +61,8 @@ document.getElementById('bottone-annulla').addEventListener("click", function(){
   document.getElementById('codice').innerHTML = "";
   document.getElementById('costoticket').innerHTML="";
   document.getElementById("offerta").innerHTML = "";
+  document.getElementById("scatola").style.display = "none";
+  document.getElementById("tuo").style.display = "none";
 
 
 })
