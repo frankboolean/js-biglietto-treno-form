@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+  </head>
+  <body>
+    <h1>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+    <div class="box">
+      <div class="generi">
+        <div class="Nomi">
+          <h4>Nome e Cognome</h4>
+          <input id="nome-cognome" type="text" name="" value="" placeholder="inserisci il tuo nome">
+        </div>
+        <div class="km">
+          <h4>Km da percorrere</h4>
+          <input id="km-percs" type="number" name="km" value="" placeholder="inserisci i km">
+        </div>
+        <div class="età">
+          <h4>Fascia d'età</h4>
+          <select id="fascia" name="">
+            <option value="mino">Minorenne</option>
+            <option value="medio">Standard</option>
+            <option value="maggio">Over 65</option>
+          </select>
+        </div>
+      </div>
+      <div class="bottoni">
+        <button type="button" name="button" id="bottone-genera">Genera</button>
+        <button type="button" name="button" id="bottone-annulla"  >Annulla</button>
+      </div>
+
+    </div>
+
+    <!-- biglietto nascosto -->
+
+    <h1>IL TUO BIGLIETTO</h1>
+    <div class="box2">
+      <h3>DETTAGLIO PASSEGGERO</h3>
+      <div class="info">
+        <div class="off-pass">
+          <h2>Nome passeggero </h2>
+          <p id="nom-pass"></p>
+        </div>
+        <div class="off-pass">
+          <h5>Offerta</h5>
+          <p id="offerta"></p>
+        </div>
+        <div class="off-pass">
+          <h5>Carrozza</h5>
+          <p id="carrozza"></p>
+        </div>
+        <div class="off-pass">
+          <h5>Codice CP</h5>
+          <p id="codice"></p>
+        </div>
+        <div class="off-pass">
+          <h5>Costo biglietto</h5>
+          <p id="costoticket"></p>
+        </div>
+
+      </div>
+
+
+    </div>
+
+    <script type="text/javascript" src="main.js">
+
+    </script>
+
+  </body>
+</html>
